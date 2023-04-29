@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953413954770",
+    "project_id": "presensi-kerumunan-pegawai",
+    "storage_bucket": "presensi-kerumunan-pegawai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953413954770:android:cc55fbf507972bf3e5d10b",
+        "android_client_info": {
+          "package_name": "com.cp15.mapres"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953413954770-m4cbefi1gaid9gf39vlnketh8t284mib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBntr7zg6Jp8CSf533RaQbGLyUQVY-hseY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953413954770-m4cbefi1gaid9gf39vlnketh8t284mib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
