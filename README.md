@@ -1,2 +1,2 @@
 # MAPRES
-#Aplikasi Android Presensi Kerumunan Pegawai Menggunakan GPS 
+#Aplikasi Presensi Kerumunan Pegawai Menggunakan GPS Berbasis Android
