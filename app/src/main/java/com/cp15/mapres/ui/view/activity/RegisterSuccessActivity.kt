@@ -1,7 +1,8 @@
-package com.cp15.mapres
+package com.cp15.mapres.ui.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cp15.mapres.R
 
 class RegisterSuccessActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.cp15.mapres.activity
+package com.cp15.mapres.ui.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

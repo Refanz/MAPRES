@@ -10,7 +10,7 @@
     android:paddingTop="80dp"
     android:paddingRight="30dp"
     android:textAlignment="center"
-    tools:context=".RegisterSuccessActivity">
+    tools:context=".ui.view.activity.RegisterSuccessActivity">
 
 
     <TextView
