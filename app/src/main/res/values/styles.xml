@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btn_bg_main" parent="android:Widget.Button">
+        <item name="android:background">#F8CA34</item>
+    </style>
+</resources>

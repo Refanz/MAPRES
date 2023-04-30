@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_white"
     tools:context=".activity.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="@color/bg_main"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ic_login"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:cropToPadding="true"
+            android:scaleType="fitCenter"
+            android:scaleX="2"
+            android:scaleY="2"
+            app:srcCompat="@drawable/icon_login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editTxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginBottom="40px"
+                android:background="@drawable/edit_text_rounded_background"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editTxtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:background="@drawable/edit_text_rounded_background"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:textColor="@color/bg_white"
+                android:theme="@style/btn_bg_main"
+                app:cornerRadius="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/bg_main"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
