@@ -16,21 +16,27 @@
         tools:targetApi="31">
         <activity
             android:name=".ui.view.activity.SplashscreenActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".ui.view.activity.MapsActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".ui.view.activity.RegisterSuccessActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".ui.view.activity.RegisterActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".ui.view.activity.LoginActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".ui.view.activity.WelcomeActivity"
+            android:launchMode="singleTask"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
