@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "953413954770",
+    "firebase_url": "https://presensi-kerumunan-pegawai-default-rtdb.firebaseio.com",
     "project_id": "presensi-kerumunan-pegawai",
     "storage_bucket": "presensi-kerumunan-pegawai.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:953413954770:android:cc55fbf507972bf3e5d10b",
+        "mobilesdk_app_id": "1:953413954770:android:031f520619f7ec09e5d10b",
         "android_client_info": {
           "package_name": "com.cp15.mapres"
         }
