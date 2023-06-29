@@ -55,7 +55,7 @@
             <EditText
                 android:id="@+id/editTxtFullName"
                 android:layout_width="match_parent"
-                android:layout_height="80px"
+                android:layout_height="100px"
                 android:layout_marginBottom="40px"
                 android:background="@drawable/edit_text_rounded_background"
                 android:ems="10"
@@ -72,7 +72,7 @@
             <EditText
                 android:id="@+id/editTxtEmail"
                 android:layout_width="match_parent"
-                android:layout_height="80px"
+                android:layout_height="100px"
                 android:background="@drawable/edit_text_rounded_background"
                 android:ems="10"
                 android:inputType="textEmailAddress"
@@ -89,7 +89,7 @@
             <EditText
                 android:id="@+id/editTxtPassword"
                 android:layout_width="match_parent"
-                android:layout_height="80px"
+                android:layout_height="100px"
                 android:background="@drawable/edit_text_rounded_background"
                 android:ems="10"
                 android:inputType="textPassword"
@@ -106,11 +106,45 @@
             <EditText
                 android:id="@+id/editTxtPasswordConfirm"
                 android:layout_width="match_parent"
-                android:layout_height="80px"
+                android:layout_height="100px"
                 android:background="@drawable/edit_text_rounded_background"
                 android:ems="10"
                 android:inputType="textPassword"
                 android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mendaftar sebagai *" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="102dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pegawai" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Admin" />
+                </LinearLayout>
+
+            </RadioGroup>
 
             <Button
                 android:id="@+id/btnSignIn"

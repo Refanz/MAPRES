@@ -15,39 +15,38 @@
         android:theme="@style/Theme.PresensiKerumunanPegawai"
         tools:targetApi="31">
         <activity
-            android:name=".ui.view.activity.SplashscreenActivity"
-            android:launchMode="singleTask"
+            android:name=".ui.view.activity.DashboardActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.view.activity.SplashscreenActivity"
+            android:exported="false"
+            android:launchMode="singleTask" />
         <activity
             android:name=".ui.view.activity.MapsActivity"
-            android:launchMode="singleTask"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTask" />
         <activity
             android:name=".ui.view.activity.RegisterSuccessActivity"
-            android:launchMode="singleTask"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTask" />
         <activity
             android:name=".ui.view.activity.RegisterActivity"
-            android:launchMode="singleTask"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTask" />
         <activity
             android:name=".ui.view.activity.LoginActivity"
-            android:launchMode="singleTask"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTask" />
         <activity
             android:name=".ui.view.activity.WelcomeActivity"
-            android:launchMode="singleTask"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
     </application>
 
 </manifest>

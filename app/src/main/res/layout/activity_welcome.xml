@@ -55,5 +55,16 @@
             android:layout_gravity="center"
             android:backgroundTint="@color/black"
             />
+        <Button
+            android:id="@+id/dash"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textColor="@color/bg_main"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            />
     </LinearLayout>
 </RelativeLayout>
